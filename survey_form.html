@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Survey Form</title>
+</head>
+<body>
+    <form action="backend.php">
+        <center>
+            <h1>Survey Form</h1>
+        </center>
+        <fieldset>
+        <h2>Enter your details</h2>
+        <div>
+            First Name : <input type="text" placeholder="Enter your first name">  
+        </div>
+        <br>
+        <div>
+            Last Name : <input type="text" placeholder="Enter your last name">
+        </div>
+        <br>
+        <div>
+            Email : <input type="email" placeholder="Enter your email">    
+        </div>
+        <br>
+        <div>
+            Contact : <input type="number" placeholder="Enter your mobile no.">
+        </div>
+        <br>
+        </fieldset>
+        <br>
+        <fieldset>
+        <div>
+            Where did you hear about your website?
+            <br>
+            <input type="checkbox" name="Google" id=""><label for="Google">Google</label>
+            <br>
+            <input type="checkbox" name="Friends" id=""><label for="Friends">Friends</label>
+            <br>
+            <input type="checkbox" name="Social Sites" id=""><label for="Social Sites">Social Sites</label>
+        </div>
+        </fieldset>
+        <div>
+            <p>Enter your feedback : </p>
+            <textarea name="Enter your feedback" id="Enter your feedback" cols="30" rows="10"></textarea>
+        </div>
+    </form>
+</body>
+</html>
